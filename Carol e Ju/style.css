@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color:rgb(63, 63, 201);
+    color:rgb(57, 57, 170);
     font-size: 68px;
     font-style: italic;
     background-color: rgb(134, 134, 241);
@@ -14,7 +14,7 @@ h2{
 }
 
 b {
-    color:rgb(10, 133, 170);
+    color:rgb(9, 118, 151);
     font-size: 18px;
 }
 
@@ -26,7 +26,11 @@ b {
     width: 630px;
     border-color: blue;
     border-radius: 40px;
-    border-style: initial;
+    border-style:hidden;
     
 
+}
+
+ul{
+    background-color: rgba(29, 117, 218, 0.575);
 }
