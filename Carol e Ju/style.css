@@ -4,6 +4,7 @@ h1 {
     font-size: 68px;
     font-style: italic;
     background-color: rgb(134, 134, 241);
+    
 }
 
 h2{
@@ -32,5 +33,18 @@ b {
 }
 
 ul{
-    background-color: rgba(29, 117, 218, 0.575);
+    background-color: rgba(49, 139, 241, 0.795);
+}
+
+.contato {
+    background-color: rgb(28, 100, 160);
+    width: 80%;
+    border-radius: 600px;
+    width: 60%;
+
+
+}
+
+li{
+    margin-
 }
