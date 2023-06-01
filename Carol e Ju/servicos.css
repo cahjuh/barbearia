@@ -1,5 +1,5 @@
 h1 {
-    text-align: center;
+   
     color:rgb(35, 15, 146);
     font-size: 50px;
     font-style: italic;
@@ -21,3 +21,19 @@ header {
         font-size: 15px;
         text-decoration: none;
     }
+    nav{
+        position: absolute;
+        margin-top: 20px;
+        top: 1px;
+        right: 0px;
+    }
+
+    .caixa{
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+
+
+    }
+
+    
