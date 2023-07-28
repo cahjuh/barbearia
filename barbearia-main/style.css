@@ -1,57 +1,118 @@
+
 h1 {
-    text-align: center;
-    color:rgb(32, 32, 134);
-    font-size: 68px;
-    font-style: italic;
-    background-color: rgb(90, 90, 194);
-    
-}
-
-h2{
-    text-align: center;
-    color:rgb(12, 12, 117);
-    font-size: 36px;
+   
+    color:rgb(35, 15, 146);
+    font-size: 50px;
     font-style: italic;
 }
 
-b {
-    color:rgb(6, 67, 85);
-    font-size: 18px;
+header { 
+    background-color: rgba(73, 120, 207, 0.966);
 }
 
-.imagem{
+    nav li {
+        display: inline;
+        margin-right:200px;
+    }
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 630px;
-    border-color: blue;
-    border-radius: 40px;
-    border-style:initial;
-    
+    nav a:hover{
+        color:rgb(38, 71, 218);
+        text-decoration: underline;
+    }
 
-}
+    nav a {
+        text-transform: uppercase;
+        color:rgb(7, 1, 90);
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    nav{
+        position: absolute;
+        margin-top: 20px;
+        top: 10px;
+        right: 0px;
+    }
 
-ul{
-    background-color: rgba(49, 139, 241, 0.795);
-}
+    .caixa{
+        position: relative;
+        width: 1080px;
+        margin: 0 auto;
 
-.contato {
-    background-color: rgb(28, 100, 160);
-    width: 70%;
-    border-radius: 30px;
-    margin:auto;
+
+    }
+
+    .logotipo{
+        width: 15%;
+        position: relative;
+        right: 400px;
+    }
+
+    .servicos{
+        width: 940px;
+        margin: auto;
+        padding: 50px 0;
+    }
+
+    .servicos li{
+        display: inline-block;
+        text-align: center;
+        width:30%;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding: 30px 0px;
+        box-sizing: border-box;
+        border: 2px solid rgb(10, 89, 134);
+        border-radius: 10px;
+
+    }
+
+    .servicos li:hover{
+        border-color: rgb(29, 143, 219);
+    }
+
+    .servicos li:hover h2{
+        font-size: 34px;
+        color: rgb(36, 141, 211);
+    }
+
+    .servicos li:active{
+        border-color: rgb(17, 112, 189);
+        border-width: 4px;
+    }
+
+    .servicos img{
+        width: 200px;
+        height: 240px;
+    }
+
+    .servicos h2{
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .produtos-descricao{
+        font-size: 18px;
+    }
+
+    .preco{
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+footer{
     text-align: center;
+    background-color: rgb(73, 120, 207, 0.966);
+    padding: 40px;
+}
     
-
+footer img {
+    width: 10%;
 }
 
-
-.texto{
-    background-color: rgb(25, 176, 247);
-    width: 50%;
-    border-radius: 15px;
-    margin:auto;
-
-
+.copyright{
+    font-size: 13px;
+    margin: 20px 0 0;
 }
